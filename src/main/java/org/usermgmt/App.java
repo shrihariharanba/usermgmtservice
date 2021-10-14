@@ -8,7 +8,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * Hello world!
+ * User management Application
  */
 @SpringBootApplication(scanBasePackages = "org.usermgmt", exclude = {SecurityAutoConfiguration.class})
 public class App {
