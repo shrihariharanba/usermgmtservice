@@ -9,6 +9,9 @@ import org.usermgmt.service.UserService;
 import org.usermgmt.util.ExceptionType;
 import org.usermgmt.util.SecurityUtil;
 
+/**
+ * Login service
+ */
 @Service
 public class LoginServiceImpl implements LoginService {
 

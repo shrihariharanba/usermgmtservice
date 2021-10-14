@@ -1,5 +1,8 @@
 package org.usermgmt.config;
 
+/**
+ * Product Exception to capture all runtime exception
+ */
 public class ProductException extends RuntimeException {
 
     private Integer code;

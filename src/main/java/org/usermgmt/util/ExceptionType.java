@@ -1,5 +1,8 @@
 package org.usermgmt.util;
 
+/**
+ * Handle different type of exception
+ */
 public enum ExceptionType {
     AUTHORIZATION(401, "Unauthorized"),
     PASSWORD_MATCH(403, "Forbidden"),

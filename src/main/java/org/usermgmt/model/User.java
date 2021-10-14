@@ -5,6 +5,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
 
+/**
+ * User model
+ */
 public class User {
     private Long userId;
     private String name;
