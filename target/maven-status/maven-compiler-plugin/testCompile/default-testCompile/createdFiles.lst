@@ -1,0 +1,4 @@
+org/usermgmt/controller/LoginControllerTest.class
+org/usermgmt/UserMannagementTest.class
+org/usermgmt/util/SecurityUtilTest.class
+org/usermgmt/controller/UserControllerTest.class

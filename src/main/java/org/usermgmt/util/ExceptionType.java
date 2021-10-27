@@ -7,7 +7,9 @@ public enum ExceptionType {
     AUTHORIZATION(401, "Unauthorized"),
     PASSWORD_MATCH(403, "Forbidden"),
     USER_VALIDATION(404, "Resource Not Found"),
-    USER_CONFLICT(409, "User already present");
+    USER_CONFLICT(409, "User already present"),
+    VALIDATION(400, "Parsing error"),
+    INTERNAL_SERVER_ERROR(500, "Internal server error");
 
     private final Integer code;
     private final String type;

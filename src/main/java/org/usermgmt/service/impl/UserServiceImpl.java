@@ -131,4 +131,13 @@ public class UserServiceImpl implements UserService {
         return mapper.map(userRepo.save(updatedUser), User.class);
     }
 
+    public List<User> getSelectedUser(Long[] userIds) {
+        List<UserEntity> userEntityList = userRepo.findByUserIds(userIds);
+        List<User> userList = new ArrayList<>();
+        userEntityList.forEach(e -> {
+            userList.add(mapper.map(e, User.class));
+        });
+        return userList;
+    }
+
 }

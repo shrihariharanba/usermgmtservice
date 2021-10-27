@@ -17,6 +17,11 @@ public class LoginController {
     @Autowired
     LoginService loginService;
 
+    /**
+     * Method to authorize the login
+     * @param emailAddress
+     * @param password
+     */
     @PostMapping()
     public void login(@RequestParam String emailAddress, @RequestParam String password) {
         loginService.validate(emailAddress, password);

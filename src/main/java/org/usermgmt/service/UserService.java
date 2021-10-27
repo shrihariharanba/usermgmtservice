@@ -18,4 +18,6 @@ public interface UserService {
     public User findUserByEmailAddress(String emailAddress);
 
     public User updateLastLogin(User user);
+
+    public List<User> getSelectedUser(Long[] userIds);
 }
